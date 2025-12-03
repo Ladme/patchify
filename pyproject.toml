@@ -1,5 +1,8 @@
 [tool.poetry]
-authors = ["Weiyuan Wu <doomsplayer@gmail.com>", "Zhifan Lan <zlan1@ualberta.ca>"]
+authors = [
+  "Weiyuan Wu <doomsplayer@gmail.com>",
+  "Zhifan Lan <zlan1@ualberta.ca>",
+]
 description = "A library that helps you split image into small, overlappable patches, and merge patches back into the original image."
 license = "MIT"
 name = "patchify"
@@ -18,8 +21,8 @@ classifiers = [
 keywords = ["patch", "image", "split"]
 
 [tool.poetry.dependencies]
-numpy = "^1"
-python = "^3.7"
+numpy = "^2.5"
+python = ">=3.11"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
