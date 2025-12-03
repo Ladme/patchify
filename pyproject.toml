@@ -21,7 +21,7 @@ classifiers = [
 keywords = ["patch", "image", "split"]
 
 [tool.poetry.dependencies]
-numpy = "^2.5"
+numpy = ">=2.5"
 python = ">=3.11"
 
 [tool.poetry.dev-dependencies]
